@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
     list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -39,4 +41,34 @@ header {
     max-width: 100%;
     width: 130px;
     height: auto;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist li {
+    position: relative;
+}
+
+.navlist a {
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 10px 27px;
+}
+
+.navlist a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--main-color);
+    bottom: -3px;
+    left: 0;
+    transition: ease .40s;
+}
+
+.navlist a:hover::after {
+    width: 100%;
 }
