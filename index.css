@@ -5,3 +5,13 @@
     font-family: 'Jost', sans-serif;
     list-style: none;
 }
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000;
+    --secondary-color: #a09dab;
+    --main-color: #f75023;
+    --bg-font: #5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
