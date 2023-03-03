@@ -34,3 +34,9 @@ header {
     padding: 30px 18%;
     transition: .3s;
 }
+
+.logo img{
+    max-width: 100%;
+    width: 130px;
+    height: auto;
+}
